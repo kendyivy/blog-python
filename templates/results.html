@@ -1,0 +1,11 @@
+{%extends 'layout.html'%}
+
+{%block content%}
+<body>
+ 
+<div class="container">
+  <p>The product of {{title}} and {{body}} is {{product}}</p>
+  <p>Go back to bog page page<a href="{{url_for("index")}}"> Click here</a></p>
+</div>
+</body>
+{% endblock %}
